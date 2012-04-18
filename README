@@ -1,0 +1,16 @@
+Explaining 'responsive web design' to anyone who isn't a web developer is tricky - show them and the penny drops instantly. Resizing the browser is fine but non-web geeks don't seem connect the browser window size with a device window size. This demo is intended to demonstrate the practice in a manner everyone 'gets'.
+
+Resources
+Ethan Marcotte (@beep) brought this approach onto web developers radars everywhere with his excellent article on www.alistapart.com (http://www.alistapart.com/articles/responsive-web-design/). Many fine examples of responsive web design being 'in the wild' can be found on the mediaqueri.es website.
+
+The technical bits
+Nope, this demo isn't responsive. It's designed to be a tool to demonstrate in the clearest manner possible to the widest audience possible. I felt concept would be lost if someone on their smart phone couldn't see differences between 'viewports' just the same a those on their desktop. Yeah- I know, I know.
+
+Credits / Thanks
+The idea for this page was was inspired by a previous demo put together @thismanslife. It was beaten to the punch by http://responsive.is/ and others since.
+
+@john_nye & @sophiedennis for encouragement & opinions.
+@Jack_Way for encouragement & opinions and particularly IE bug squashing.
+
+Feedback welcome!
+Just holler on twitter @jamusreynolds
