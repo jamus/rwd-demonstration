@@ -406,14 +406,20 @@ $(function() {
  });
 
 
-   //// set-up random url
-
-			base = "http://www.";
+    //// Check for url in url
+    var givenURL = (RegExp('url=' + '(.+?)(&|$)').exec(location.search)||[,null])[1];
+    if (givenURL == null){
+      ////set-up random url
+      base = "http://www.";
 			var urls = ["hicksdesign.co.uk","anderssonwise.com","forefathersgroup.com","earthhour.fr","bostonglobe.com"];
     			var randomURL = urls[Math.floor(Math.random() * urls.length)];
     			var randomhttpURL = (base + randomURL);
     			$('#displayframe').attr('src', randomhttpURL);
-    			$('#getURL').attr('value', randomURL);
+          $('#getURL').attr('value', randomURL);
+    }else{
+      $('#getURL').attr('value',givenURL );
+      $('#displayframe').attr('src',givenURL);
+    }
 
 
 });
